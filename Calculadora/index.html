@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora 2</title>
+    <link rel="stylesheet" href="light.css" id="theme">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap" rel="stylesheet">
+<link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <script src="main.js" defer></script>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Calculator body -->
+        <section class="calc calc-dark">
+
+            <!-- Dark mode button -->
+             <div class="bottom-buttons">
+            <button onclick="switchTheme()" id="dark-mode">
+                <i class='bx bxs-sun'></i>
+            </button>
+        </div>
+            <!-- Screen -->
+            <input type="text" id="inputcalc" placeholder="0">
+
+            <!-- Buttons -->
+            <button reset class="color">C</button>
+            <button id="sign" class="color">±</button>
+            <button data-symbol class="color">%</button>
+            <button data-symbol class="color">÷</button>
+            <button data-number>7</button>
+            <button data-number>8</button>
+            <button data-number>9</button>
+            <button data-symbol class="color">x</button>
+            <button data-number>4</button>
+            <button data-number>5</button>
+            <button data-number>6</button>
+            <button data-symbol class="color">-</button>
+            <button data-number>1</button>
+            <button data-number>2</button>
+            <button data-number>3</button>
+            <button data-symbol class="color">+</button>
+            <button data-number>0</button>
+            <button data-number>.</button>
+            <button equal class="equal">=</button>
+
+        </section>
+       
+    </main>
+
+</body>
+
+</html>
